@@ -1,5 +1,5 @@
 <h2 align="left">RwLock <img src=".github/ure-logo.png" height=80 align="right" /></h2>
-A C++ implementation of a Read / Write lock with Writing priority.
+A C++ implementation of a Read / Write lock with writing priority.
 
 ### RwLock
 A way of reading and writing to a part of memory which is threadsafe.<br>
