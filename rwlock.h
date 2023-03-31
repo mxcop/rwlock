@@ -19,7 +19,7 @@ class ReadGuard;
 /**
  * @brief Read / Write lock allows one writer or any number of readers.
  * 
- * Implements pre-lock for write locks.
+ * Implements priority lock for write locks.
  * This means write locks will be given priority over read locks.
  * To ensure that writing isn't blocked forever by read locks.
  */
