@@ -31,7 +31,7 @@ class RwLock {
 
     private:
         T data;
-        std::mutex mtx;
+        mutable std::mutex mtx;
         std::condition_variable cond_var;
         int rc;
         int wc;
