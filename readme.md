@@ -1,4 +1,4 @@
-# RwLock
+<h2 align="left">RwLock <img src=".github/ure-logo.png" height=80 align="right" /></h2>
 A C++ implementation of a Read / Write lock with Writing priority.
 
 ### RwLock
@@ -43,3 +43,5 @@ int main() {
 
 ### Sources
 [Kl4rry's RwLock](https://github.com/Kl4rry/RwLock)
+
+<div align=right><sub><i>Written in 2023 by Max for the URE 17 racecar</i></sub></div>
